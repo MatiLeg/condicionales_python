@@ -35,14 +35,6 @@ temperatura_1 = int(input('Temperatura 1: °'))
 temperatura_2 = int(input('Temperatura 2: °'))
 temperatura_3 = int(input('Temperatura 3: °'))
 
-#Solucion con if compuestos
-if temperatura_1 > temperatura_2 and temperatura_1 > temperatura_3:
-    print('{} es la temperatura maxima'.format(temperatura_1))
-elif temperatura_2 > temperatura_1 and temperatura_2 > temperatura_3:
-    print ('{} es la temperatura maxima'.format(temperatura_2))
-elif temperatura_3 > temperatura_1 and temperatura_3 > temperatura_2:
-    print('{} es la temperatura maxima.'.format(temperatura_3))
-
 
 #Temperatura maxima
 temperatura_maxima = -700000
