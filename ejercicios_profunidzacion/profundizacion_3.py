@@ -52,13 +52,13 @@ print('La temperatura maxima es °{}'.format(temperatura_maxima))
 temperatura_minima = 700000
 
 if temperatura_1 < temperatura_maxima:
-    temperatura_maxima = temperatura_1
+    temperatura_minima = temperatura_1
 if temperatura_2 < temperatura_maxima:
-    temperatura_maxima = temperatura_2
+    temperatura_minima = temperatura_2
 if temperatura_3 < temperatura_maxima:
-    temperatura_maxima = temperatura_3
+    temperatura_minima = temperatura_3
 
-print('La temperatura minima es °{}'.format(temperatura_maxima))
+print('La temperatura minima es °{}'.format(temperatura_minima))
 
 #Promedio de temperaturas
 temperatura_promedio = (temperatura_1 + temperatura_2 + temperatura_3) / 3
