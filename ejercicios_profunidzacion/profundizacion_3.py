@@ -51,11 +51,11 @@ print('La temperatura maxima es °{}'.format(temperatura_maxima))
 #Temperatura minima
 temperatura_minima = 700000
 
-if temperatura_1 < temperatura_maxima:
+if temperatura_1 < temperatura_minima:
     temperatura_minima = temperatura_1
-if temperatura_2 < temperatura_maxima:
+if temperatura_2 < temperatura_minima:
     temperatura_minima = temperatura_2
-if temperatura_3 < temperatura_maxima:
+if temperatura_3 < temperatura_minima:
     temperatura_minima = temperatura_3
 
 print('La temperatura minima es °{}'.format(temperatura_minima))
